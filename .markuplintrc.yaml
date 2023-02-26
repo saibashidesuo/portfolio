@@ -6,3 +6,7 @@ parser:
   .tsx?$: '@markuplint/jsx-parser'
 specs:
   .tsx?$: '@markuplint/react-spec'
+nodeRules:
+  selector: img
+  rules:
+    required-attr: alt
